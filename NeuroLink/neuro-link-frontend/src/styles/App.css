@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.chart-container {
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    margin: 20px 0;
+}
+
+.mode-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.mode-button:hover {
+    background-color: #ddd;
+}
+
+.canvas-container {
+    width: 80%;
+    height: 400px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.App {
+    text-align: center;
+}
+
+.landing-page header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+}
+
+.landing-page .description,
+.landing-page .live-demo,
+.landing-page .download-links {
+    padding: 20px;
+}
+
+.landing-page .download-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #61dafb;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.landing-page .download-button:hover {
+    background-color: #21a1f1;
+}

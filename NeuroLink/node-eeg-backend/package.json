@@ -1,0 +1,22 @@
+{
+  "name": "node-eeg-backend",
+  "version": "1.0.0",
+  "description": "A backend application that connects to an EEG headset, processes brainwave data using a pre-trained AI model, and sends the processed data to the frontend via WebSocket.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^3.0.0",
+    "socket.io": "^4.8.1",
+    "ws": "^8.0.0"
+  },
+  "keywords": [
+    "EEG",
+    "WebSocket",
+    "AI",
+    "TensorFlow"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

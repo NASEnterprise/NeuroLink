@@ -1,0 +1,29 @@
+.landing-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.landing-page header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.landing-page .description,
+.landing-page .live-demo,
+.landing-page .download-links {
+    margin: 20px 0;
+}
+
+.landing-page .download-button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.landing-page .download-button:hover {
+    background-color: #0056b3;
+}
