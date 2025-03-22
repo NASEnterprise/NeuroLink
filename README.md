@@ -14,7 +14,7 @@ NeuroLink is an innovative project aimed at integrating brain-computer interface
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/NeuroLink.git
+   git clone https://github.com/NASEnterprise/NeuroLink.git
    ```
 
 2. Navigate to the project directory:
